@@ -1,4 +1,4 @@
-# 🧠 Local Multi‑Agent LLM Workstation
+# Agent Network System (Build 1)
 
 An **offline‑first agent network** that combines two complementary pipelines:
 
@@ -87,6 +87,18 @@ pip install -r requirements.txt
 $env:OLLAMA_URL = "http://localhost:11434"
 $env:DEV_MODEL   = "deepseek-coder"
 $env:AGENT_MODEL = "deepseek-r1:7b"
+```
+Create an environment file (not provided in this repository) 
+Template below. 
+
+```
+OLLAMA_API=http://localhost:11434/api/generate
+# Models
+PLANNER_MODEL=deepseek-r1:7b
+WRITER_MODEL=deepseek-r1:7b
+DEV_MODEL=deepseek-coder
+TEST_COMMAND=pytest         
+
 ```
 
 Create a fresh Git repo so snapshots work:
