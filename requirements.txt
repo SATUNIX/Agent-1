@@ -1,0 +1,8 @@
+open-interpreter>=0.1.2
+pytest
+duckduckgo-search>=4.0.0
+beautifulsoup4
+lxml
+requests
+tiktoken                    # optional, token counting
+ollama-python>=0.1.7 ; extra == "with-lib"  # if you install the Ollama helper
