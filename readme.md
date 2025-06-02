@@ -1,4 +1,4 @@
-# Agent Network System (Build 1)
+# Agent Network System (Build 1) (Experimental - Untested)
 
 An **offline‑first agent network** that combines two complementary pipelines:
 
